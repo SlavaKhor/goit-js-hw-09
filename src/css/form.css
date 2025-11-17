@@ -1,0 +1,11 @@
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.feedback-form input,
+.feedback-form textarea{
+    width: 300px;
+}
