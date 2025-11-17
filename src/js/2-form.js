@@ -36,14 +36,10 @@ const submitHandler = event => {
     return;
   }
 
-  console.log(localStorage.getItem(formData));
-
+  console.log(localStorage.getItem(formData));  
+  feedbackForm.reset();
   formData.email = '';
   formData.message = '';
-
-  localStorage.removeItem(storageKey);
-  
-  feedbackForm.reset();
 };
 
 feedbackForm.addEventListener('input', inputHandler);
