@@ -4,7 +4,7 @@ const formData = {
 };
 const feedbackForm = document.querySelector('.feedback-form');
 
-const storageKey = 'data';
+const storageKey = 'feedback-form-state';
 
 const savedData = localStorage.getItem(storageKey);
 
