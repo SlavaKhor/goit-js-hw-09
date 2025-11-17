@@ -36,7 +36,10 @@ const submitHandler = event => {
     return;
   }
 
-  console.log(localStorage.getItem(storageKey));
+  console.log(localStorage.getItem(formData));
+
+  formData.email = '';
+  formData.message = '';
 
   localStorage.removeItem(storageKey);
   
