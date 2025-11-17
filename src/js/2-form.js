@@ -2,7 +2,7 @@ const formData = {
   email: '',
   message: '',
 };
-const feedbackForm = document.querySelector('.feedbackForm');
+const feedbackForm = document.querySelector('.feedback-form');
 
 const storageKey = 'data';
 
